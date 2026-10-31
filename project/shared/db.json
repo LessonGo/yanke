@@ -1,0 +1,2980 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "123456",
+      "name": "系统管理员",
+      "role": "admin",
+      "roleName": "管理员"
+    },
+    {
+      "username": "doctor",
+      "password": "123456",
+      "name": "陈明医生",
+      "role": "doctor",
+      "roleName": "眼科医生"
+    },
+    {
+      "username": "nurse",
+      "password": "123456",
+      "name": "李婷护士",
+      "role": "nurse",
+      "roleName": "眼科护士"
+    },
+    {
+      "username": "tech",
+      "password": "123456",
+      "name": "王强技师",
+      "role": "tech",
+      "roleName": "设备技师"
+    }
+  ],
+  "devices": [
+    {
+      "id": "OCT-001",
+      "name": "SD-OCT 眼部扫描仪 01",
+      "model": "SD-OCT-2000",
+      "location": "眼科门诊 1 诊室",
+      "status": "online",
+      "usageRate": 86,
+      "todayCount": 42,
+      "serialNo": "SN-SDOCT2000-23-001",
+      "purchaseDate": "2023-03-15",
+      "warrantyUntil": "2026-03-15",
+      "totalScans": 4860,
+      "maintainDate": "2026-09-30"
+    },
+    {
+      "id": "OCT-002",
+      "name": "SD-OCT 眼部扫描仪 02",
+      "model": "SD-OCT-2000",
+      "location": "眼科门诊 2 诊室",
+      "status": "online",
+      "usageRate": 74,
+      "todayCount": 35,
+      "serialNo": "SN-SDOCT2000-23-002",
+      "purchaseDate": "2023-03-15",
+      "warrantyUntil": "2026-03-15",
+      "totalScans": 3980,
+      "maintainDate": "2026-09-30",
+      "statusUpdatedAt": "2026-10-29"
+    },
+    {
+      "id": "OCT-003",
+      "name": "SS-OCT 深度成像仪 01",
+      "model": "SS-OCT-100K",
+      "location": "眼科检查室",
+      "status": "online",
+      "usageRate": 92,
+      "todayCount": 51,
+      "serialNo": "SN-SSOCT100K-24-003",
+      "purchaseDate": "2024-06-20",
+      "warrantyUntil": "2027-06-20",
+      "totalScans": 3120,
+      "maintainDate": "2026-09-30"
+    },
+    {
+      "id": "OCT-004",
+      "name": "SS-OCT 深度成像仪 02",
+      "model": "SS-OCT-100K",
+      "location": "体检中心 2 层",
+      "status": "online",
+      "usageRate": 68,
+      "todayCount": 29,
+      "serialNo": "SN-SSOCT100K-24-004",
+      "purchaseDate": "2024-06-20",
+      "warrantyUntil": "2027-06-20",
+      "totalScans": 2150,
+      "maintainDate": "2026-09-30"
+    },
+    {
+      "id": "OCT-005",
+      "name": "SD-OCT 眼部扫描仪 03",
+      "model": "SD-OCT-2000",
+      "location": "视光中心",
+      "status": "online",
+      "usageRate": 55,
+      "todayCount": 22,
+      "serialNo": "SN-SDOCT2000-24-005",
+      "purchaseDate": "2024-11-08",
+      "warrantyUntil": "2027-11-08",
+      "totalScans": 1460,
+      "maintainDate": "2026-09-30"
+    },
+    {
+      "id": "OCT-006",
+      "name": "SS-OCT 深度成像仪 03",
+      "model": "SS-OCT-100K",
+      "location": "住院部眼科病区",
+      "status": "online",
+      "usageRate": 81,
+      "todayCount": 38,
+      "serialNo": "SN-SSOCT100K-23-006",
+      "purchaseDate": "2023-09-12",
+      "warrantyUntil": "2026-09-12",
+      "totalScans": 3340,
+      "maintainDate": "2026-09-30"
+    },
+    {
+      "id": "OCT-007",
+      "name": "SD-OCT 眼部扫描仪 04",
+      "model": "SD-OCT-2000",
+      "location": "社区筛查点 A",
+      "status": "maintenance",
+      "usageRate": 0,
+      "todayCount": 0,
+      "serialNo": "SN-SDOCT2000-24-007",
+      "purchaseDate": "2024-11-08",
+      "warrantyUntil": "2027-11-08",
+      "totalScans": 980,
+      "maintainDate": "2026-09-30"
+    },
+    {
+      "id": "OCT-008",
+      "name": "SD-OCT 眼部扫描仪 05",
+      "model": "SD-OCT-2000",
+      "location": "社区筛查点 B",
+      "status": "offline",
+      "usageRate": 0,
+      "todayCount": 0,
+      "serialNo": "SN-SDOCT2000-22-008",
+      "purchaseDate": "2022-07-01",
+      "warrantyUntil": "2025-07-01",
+      "totalScans": 5420,
+      "maintainDate": "2026-09-30"
+    }
+  ],
+  "diseases": [
+    {
+      "name": "黄斑水肿",
+      "value": 186
+    },
+    {
+      "name": "糖尿病视网膜病变",
+      "value": 154
+    },
+    {
+      "name": "青光眼",
+      "value": 128
+    },
+    {
+      "name": "年龄相关性黄斑变性",
+      "value": 97
+    },
+    {
+      "name": "黄斑前膜",
+      "value": 61
+    },
+    {
+      "name": "其他眼病",
+      "value": 55
+    },
+    {
+      "name": "视网膜脱离",
+      "value": 43
+    },
+    {
+      "name": "视神经病变",
+      "value": 38
+    }
+  ],
+  "regions": [
+    {
+      "name": "湖南",
+      "value": 762
+    },
+    {
+      "name": "广东",
+      "value": 534
+    },
+    {
+      "name": "湖北",
+      "value": 398
+    },
+    {
+      "name": "河南",
+      "value": 351
+    },
+    {
+      "name": "四川",
+      "value": 312
+    },
+    {
+      "name": "江苏",
+      "value": 286
+    },
+    {
+      "name": "浙江",
+      "value": 243
+    },
+    {
+      "name": "山东",
+      "value": 231
+    },
+    {
+      "name": "广西",
+      "value": 198
+    },
+    {
+      "name": "安徽",
+      "value": 176
+    },
+    {
+      "name": "江西",
+      "value": 165
+    },
+    {
+      "name": "贵州",
+      "value": 128
+    }
+  ],
+  "patients": [
+    {
+      "id": "P20260001",
+      "name": "吴建国",
+      "gender": "男",
+      "age": 33,
+      "phone": "18769186745",
+      "region": "湖南",
+      "tags": [],
+      "lastExamDate": "2026-10-03",
+      "status": "已结案",
+      "examCount": 2
+    },
+    {
+      "id": "P20260002",
+      "name": "高立诚",
+      "gender": "男",
+      "age": 54,
+      "phone": "15803744730",
+      "region": "湖南",
+      "tags": [
+        "黄斑水肿"
+      ],
+      "lastExamDate": "2026-10-10",
+      "status": "随访中",
+      "examCount": 3
+    },
+    {
+      "id": "P20260003",
+      "name": "罗梦洁",
+      "gender": "女",
+      "age": 75,
+      "phone": "13988958044",
+      "region": "湖南",
+      "tags": [
+        "年龄相关性黄斑变性"
+      ],
+      "lastExamDate": "2026-10-03",
+      "status": "随访中",
+      "examCount": 4
+    },
+    {
+      "id": "P20260004",
+      "name": "吴志强",
+      "gender": "男",
+      "age": 64,
+      "phone": "15502979565",
+      "region": "湖南",
+      "tags": [
+        "年龄相关性黄斑变性"
+      ],
+      "lastExamDate": "2026-10-10",
+      "status": "待复查",
+      "examCount": 6
+    },
+    {
+      "id": "P20260005",
+      "name": "黄雅琴",
+      "gender": "女",
+      "age": 46,
+      "phone": "13608759299",
+      "region": "湖南",
+      "tags": [],
+      "lastExamDate": "2026-10-19",
+      "status": "已结案",
+      "examCount": 2
+    },
+    {
+      "id": "P20260006",
+      "name": "李文博",
+      "gender": "男",
+      "age": 66,
+      "phone": "15893058414",
+      "region": "湖南",
+      "tags": [
+        "糖尿病视网膜病变"
+      ],
+      "lastExamDate": "2026-10-25",
+      "status": "待复查",
+      "examCount": 6
+    },
+    {
+      "id": "P20260007",
+      "name": "张淑芬",
+      "gender": "女",
+      "age": 68,
+      "phone": "13572539968",
+      "region": "湖南",
+      "tags": [
+        "黄斑前膜",
+        "视网膜脱离"
+      ],
+      "lastExamDate": "2026-10-17",
+      "status": "待复查",
+      "examCount": 6
+    },
+    {
+      "id": "P20260008",
+      "name": "高淑芬",
+      "gender": "女",
+      "age": 68,
+      "phone": "13996522442",
+      "region": "湖南",
+      "tags": [
+        "视网膜脱离"
+      ],
+      "lastExamDate": "2026-09-29",
+      "status": "随访中",
+      "examCount": 3
+    },
+    {
+      "id": "P20260009",
+      "name": "罗秀英",
+      "gender": "女",
+      "age": 71,
+      "phone": "13506979285",
+      "region": "湖南",
+      "tags": [
+        "糖尿病视网膜病变"
+      ],
+      "lastExamDate": "2026-09-20",
+      "status": "随访中",
+      "examCount": 6
+    },
+    {
+      "id": "P20260010",
+      "name": "吴文博",
+      "gender": "男",
+      "age": 69,
+      "phone": "13692909620",
+      "region": "湖南",
+      "tags": [
+        "视神经病变"
+      ],
+      "lastExamDate": "2026-09-20",
+      "status": "随访中",
+      "examCount": 6
+    },
+    {
+      "id": "P20260011",
+      "name": "何梦洁",
+      "gender": "女",
+      "age": 70,
+      "phone": "13508525141",
+      "region": "湖南",
+      "tags": [
+        "视网膜脱离",
+        "年龄相关性黄斑变性"
+      ],
+      "lastExamDate": "2026-10-04",
+      "status": "已结案",
+      "examCount": 5
+    },
+    {
+      "id": "P20260012",
+      "name": "高鹏飞",
+      "gender": "男",
+      "age": 63,
+      "phone": "13634333765",
+      "region": "湖南",
+      "tags": [
+        "视网膜脱离",
+        "糖尿病视网膜病变"
+      ],
+      "lastExamDate": "2026-09-23",
+      "status": "随访中",
+      "examCount": 3
+    },
+    {
+      "id": "P20260013",
+      "name": "王桂英",
+      "gender": "女",
+      "age": 47,
+      "phone": "13837360219",
+      "region": "湖南",
+      "tags": [
+        "青光眼",
+        "黄斑水肿"
+      ],
+      "lastExamDate": "2026-10-07",
+      "status": "已结案",
+      "examCount": 5
+    },
+    {
+      "id": "P20260014",
+      "name": "周秀英",
+      "gender": "女",
+      "age": 54,
+      "phone": "15814445539",
+      "region": "湖南",
+      "tags": [
+        "黄斑前膜",
+        "青光眼"
+      ],
+      "lastExamDate": "2026-10-01",
+      "status": "随访中",
+      "examCount": 6
+    },
+    {
+      "id": "P20260015",
+      "name": "高子轩",
+      "gender": "男",
+      "age": 41,
+      "phone": "13612261993",
+      "region": "广东",
+      "tags": [],
+      "lastExamDate": "2026-09-16",
+      "status": "已结案",
+      "examCount": 2
+    },
+    {
+      "id": "P20260016",
+      "name": "张子轩",
+      "gender": "男",
+      "age": 57,
+      "phone": "15863909313",
+      "region": "广东",
+      "tags": [
+        "黄斑前膜"
+      ],
+      "lastExamDate": "2026-10-05",
+      "status": "随访中",
+      "examCount": 5
+    },
+    {
+      "id": "P20260017",
+      "name": "黄敏",
+      "gender": "女",
+      "age": 26,
+      "phone": "15572610146",
+      "region": "广东",
+      "tags": [],
+      "lastExamDate": "2026-09-17",
+      "status": "已结案",
+      "examCount": 2
+    },
+    {
+      "id": "P20260018",
+      "name": "林欣然",
+      "gender": "女",
+      "age": 40,
+      "phone": "13534452622",
+      "region": "广东",
+      "tags": [],
+      "lastExamDate": "2026-09-17",
+      "status": "已结案",
+      "examCount": 1
+    },
+    {
+      "id": "P20260019",
+      "name": "梁梦洁",
+      "gender": "女",
+      "age": 41,
+      "phone": "15560122325",
+      "region": "广东",
+      "tags": [
+        "视神经病变"
+      ],
+      "lastExamDate": "2026-09-18",
+      "status": "待复查",
+      "examCount": 6
+    },
+    {
+      "id": "P20260020",
+      "name": "李凤凰",
+      "gender": "女",
+      "age": 45,
+      "phone": "15809179985",
+      "region": "广东",
+      "tags": [
+        "青光眼"
+      ],
+      "lastExamDate": "2026-10-25",
+      "status": "随访中",
+      "examCount": 3
+    },
+    {
+      "id": "P20260021",
+      "name": "梁杰",
+      "gender": "男",
+      "age": 60,
+      "phone": "15805844521",
+      "region": "广东",
+      "tags": [
+        "年龄相关性黄斑变性"
+      ],
+      "lastExamDate": "2026-09-18",
+      "status": "随访中",
+      "examCount": 5
+    },
+    {
+      "id": "P20260022",
+      "name": "张建国",
+      "gender": "男",
+      "age": 66,
+      "phone": "13619055259",
+      "region": "湖北",
+      "tags": [
+        "黄斑前膜"
+      ],
+      "lastExamDate": "2026-10-05",
+      "status": "随访中",
+      "examCount": 5
+    },
+    {
+      "id": "P20260023",
+      "name": "周海燕",
+      "gender": "女",
+      "age": 36,
+      "phone": "13557940654",
+      "region": "湖北",
+      "tags": [
+        "青光眼"
+      ],
+      "lastExamDate": "2026-10-17",
+      "status": "待复查",
+      "examCount": 6
+    },
+    {
+      "id": "P20260024",
+      "name": "胡雅琴",
+      "gender": "女",
+      "age": 53,
+      "phone": "17627337340",
+      "region": "湖北",
+      "tags": [
+        "青光眼"
+      ],
+      "lastExamDate": "2026-10-03",
+      "status": "随访中",
+      "examCount": 2
+    },
+    {
+      "id": "P20260025",
+      "name": "罗文博",
+      "gender": "男",
+      "age": 28,
+      "phone": "18784136965",
+      "region": "湖北",
+      "tags": [],
+      "lastExamDate": "2026-10-17",
+      "status": "已结案",
+      "examCount": 2
+    },
+    {
+      "id": "P20260026",
+      "name": "徐凤凰",
+      "gender": "女",
+      "age": 71,
+      "phone": "15529992722",
+      "region": "湖北",
+      "tags": [
+        "青光眼"
+      ],
+      "lastExamDate": "2026-09-29",
+      "status": "待复查",
+      "examCount": 3
+    },
+    {
+      "id": "P20260027",
+      "name": "何静",
+      "gender": "女",
+      "age": 55,
+      "phone": "15587506836",
+      "region": "河南",
+      "tags": [
+        "糖尿病视网膜病变"
+      ],
+      "lastExamDate": "2026-09-20",
+      "status": "待复查",
+      "examCount": 4
+    },
+    {
+      "id": "P20260028",
+      "name": "陈雅琴",
+      "gender": "女",
+      "age": 66,
+      "phone": "13672701086",
+      "region": "河南",
+      "tags": [
+        "糖尿病视网膜病变"
+      ],
+      "lastExamDate": "2026-09-26",
+      "status": "已结案",
+      "examCount": 4
+    },
+    {
+      "id": "P20260029",
+      "name": "王立诚",
+      "gender": "男",
+      "age": 79,
+      "phone": "15809175621",
+      "region": "河南",
+      "tags": [
+        "糖尿病视网膜病变"
+      ],
+      "lastExamDate": "2026-09-30",
+      "status": "随访中",
+      "examCount": 6
+    },
+    {
+      "id": "P20260030",
+      "name": "刘明浩",
+      "gender": "男",
+      "age": 45,
+      "phone": "18742020281",
+      "region": "河南",
+      "tags": [
+        "糖尿病视网膜病变"
+      ],
+      "lastExamDate": "2026-10-06",
+      "status": "随访中",
+      "examCount": 3
+    },
+    {
+      "id": "P20260031",
+      "name": "孙淑芬",
+      "gender": "女",
+      "age": 52,
+      "phone": "15847566841",
+      "region": "四川",
+      "tags": [
+        "青光眼",
+        "视神经病变"
+      ],
+      "lastExamDate": "2026-09-22",
+      "status": "随访中",
+      "examCount": 6
+    },
+    {
+      "id": "P20260032",
+      "name": "吴磊",
+      "gender": "男",
+      "age": 28,
+      "phone": "18745190410",
+      "region": "四川",
+      "tags": [],
+      "lastExamDate": "2026-10-04",
+      "status": "待复查",
+      "examCount": 1
+    },
+    {
+      "id": "P20260033",
+      "name": "陈伟",
+      "gender": "男",
+      "age": 67,
+      "phone": "15574563443",
+      "region": "四川",
+      "tags": [
+        "糖尿病视网膜病变"
+      ],
+      "lastExamDate": "2026-10-21",
+      "status": "随访中",
+      "examCount": 6
+    },
+    {
+      "id": "P20260034",
+      "name": "梁海燕",
+      "gender": "女",
+      "age": 77,
+      "phone": "13931805666",
+      "region": "江苏",
+      "tags": [
+        "黄斑水肿"
+      ],
+      "lastExamDate": "2026-10-07",
+      "status": "随访中",
+      "examCount": 5
+    },
+    {
+      "id": "P20260035",
+      "name": "孙浩然",
+      "gender": "男",
+      "age": 85,
+      "phone": "18779793616",
+      "region": "江苏",
+      "tags": [
+        "年龄相关性黄斑变性"
+      ],
+      "lastExamDate": "2026-09-19",
+      "status": "随访中",
+      "examCount": 2
+    },
+    {
+      "id": "P20260036",
+      "name": "李涛",
+      "gender": "男",
+      "age": 46,
+      "phone": "13533829821",
+      "region": "江苏",
+      "tags": [],
+      "lastExamDate": "2026-09-20",
+      "status": "已结案",
+      "examCount": 2
+    },
+    {
+      "id": "P20260037",
+      "name": "张梦洁",
+      "gender": "女",
+      "age": 48,
+      "phone": "17678224649",
+      "region": "浙江",
+      "tags": [
+        "青光眼"
+      ],
+      "lastExamDate": "2026-10-10",
+      "status": "随访中",
+      "examCount": 3
+    },
+    {
+      "id": "P20260038",
+      "name": "周涛",
+      "gender": "男",
+      "age": 68,
+      "phone": "13987908037",
+      "region": "浙江",
+      "tags": [
+        "糖尿病视网膜病变"
+      ],
+      "lastExamDate": "2026-09-27",
+      "status": "待复查",
+      "examCount": 3
+    },
+    {
+      "id": "P20260039",
+      "name": "朱佳琪",
+      "gender": "女",
+      "age": 60,
+      "phone": "15871347506",
+      "region": "山东",
+      "tags": [],
+      "lastExamDate": "2026-10-12",
+      "status": "随访中",
+      "examCount": 2
+    },
+    {
+      "id": "P20260040",
+      "name": "张晓东",
+      "gender": "男",
+      "age": 59,
+      "phone": "15595156136",
+      "region": "山东",
+      "tags": [
+        "视神经病变",
+        "糖尿病视网膜病变"
+      ],
+      "lastExamDate": "2026-10-06",
+      "status": "待复查",
+      "examCount": 3
+    }
+  ],
+  "exams": [
+    {
+      "id": "E202610030001",
+      "patientId": "P20260001",
+      "date": "2026-10-03",
+      "deviceId": "OCT-003",
+      "deviceName": "OCT-003",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：未见明显异常（置信度 98%）",
+      "conclusion": "双眼黄斑区结构清晰，RNFL 厚度在正常范围，建议 12 个月后复查",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202608260002",
+      "patientId": "P20260001",
+      "date": "2026-08-26",
+      "deviceId": "OCT-001",
+      "deviceName": "OCT-001",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：未见明显异常（置信度 98%）",
+      "conclusion": "双眼黄斑区及视盘结构未见明显异常",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202610100003",
+      "patientId": "P20260002",
+      "date": "2026-10-10",
+      "deviceId": "OCT-003",
+      "deviceName": "OCT-003",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出黄斑水肿区域（置信度 97%）",
+      "conclusion": "黄斑中心凹厚度增加，视网膜层间囊样低反射腔，提示黄斑水肿，建议抗 VEGF 治疗评估",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202608130004",
+      "patientId": "P20260002",
+      "date": "2026-08-13",
+      "deviceId": "OCT-002",
+      "deviceName": "OCT-002",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出黄斑水肿区域（置信度 97%）",
+      "conclusion": "黄斑中心凹厚度增加，视网膜层间囊样低反射腔，提示黄斑水肿，建议抗 VEGF 治疗评估",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202605230005",
+      "patientId": "P20260002",
+      "date": "2026-05-23",
+      "deviceId": "OCT-005",
+      "deviceName": "OCT-005",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出黄斑水肿区域（置信度 97%）",
+      "conclusion": "黄斑中心凹厚度增加，视网膜层间囊样低反射腔，提示黄斑水肿，建议抗 VEGF 治疗评估",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202610030006",
+      "patientId": "P20260003",
+      "date": "2026-10-03",
+      "deviceId": "OCT-003",
+      "deviceName": "OCT-003",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出黄斑变性玻璃膜疣（置信度 93%）",
+      "conclusion": "黄斑区玻璃膜疣及 RPE 改变，提示年龄相关性黄斑变性（干性），建议补充 AREDS 配方并随访",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202608260007",
+      "patientId": "P20260003",
+      "date": "2026-08-26",
+      "deviceId": "OCT-006",
+      "deviceName": "OCT-006",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出黄斑变性玻璃膜疣（置信度 93%）",
+      "conclusion": "黄斑区玻璃膜疣及 RPE 改变，提示年龄相关性黄斑变性（干性），建议补充 AREDS 配方并随访",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202606150008",
+      "patientId": "P20260003",
+      "date": "2026-06-15",
+      "deviceId": "OCT-003",
+      "deviceName": "OCT-003",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出黄斑变性玻璃膜疣（置信度 93%）",
+      "conclusion": "黄斑区玻璃膜疣及 RPE 改变，提示年龄相关性黄斑变性（干性），建议补充 AREDS 配方并随访",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202604010009",
+      "patientId": "P20260003",
+      "date": "2026-04-01",
+      "deviceId": "OCT-004",
+      "deviceName": "OCT-004",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出黄斑变性玻璃膜疣（置信度 93%）",
+      "conclusion": "黄斑区玻璃膜疣及 RPE 改变，提示年龄相关性黄斑变性（干性），建议补充 AREDS 配方并随访",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202610100010",
+      "patientId": "P20260004",
+      "date": "2026-10-10",
+      "deviceId": "OCT-006",
+      "deviceName": "OCT-006",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出黄斑变性玻璃膜疣（置信度 93%）",
+      "conclusion": "黄斑区玻璃膜疣及 RPE 改变，提示年龄相关性黄斑变性（干性），建议补充 AREDS 配方并随访",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202607290011",
+      "patientId": "P20260004",
+      "date": "2026-07-29",
+      "deviceId": "OCT-003",
+      "deviceName": "OCT-003",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出黄斑变性玻璃膜疣（置信度 93%）",
+      "conclusion": "黄斑区玻璃膜疣及 RPE 改变，提示年龄相关性黄斑变性（干性），建议补充 AREDS 配方并随访",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202605280012",
+      "patientId": "P20260004",
+      "date": "2026-05-28",
+      "deviceId": "OCT-008",
+      "deviceName": "OCT-008",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出黄斑变性玻璃膜疣（置信度 93%）",
+      "conclusion": "黄斑区玻璃膜疣及 RPE 改变，提示年龄相关性黄斑变性（干性），建议补充 AREDS 配方并随访",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202604050013",
+      "patientId": "P20260004",
+      "date": "2026-04-05",
+      "deviceId": "OCT-004",
+      "deviceName": "OCT-004",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出黄斑变性玻璃膜疣（置信度 93%）",
+      "conclusion": "黄斑区玻璃膜疣及 RPE 改变，提示年龄相关性黄斑变性（干性），建议补充 AREDS 配方并随访",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202602250014",
+      "patientId": "P20260004",
+      "date": "2026-02-25",
+      "deviceId": "OCT-003",
+      "deviceName": "OCT-003",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出黄斑变性玻璃膜疣（置信度 93%）",
+      "conclusion": "黄斑区玻璃膜疣及 RPE 改变，提示年龄相关性黄斑变性（干性），建议补充 AREDS 配方并随访",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202601300015",
+      "patientId": "P20260004",
+      "date": "2026-01-30",
+      "deviceId": "OCT-004",
+      "deviceName": "OCT-004",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出黄斑变性玻璃膜疣（置信度 93%）",
+      "conclusion": "黄斑区玻璃膜疣及 RPE 改变，提示年龄相关性黄斑变性（干性），建议补充 AREDS 配方并随访",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202610190016",
+      "patientId": "P20260005",
+      "date": "2026-10-19",
+      "deviceId": "OCT-006",
+      "deviceName": "OCT-006",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：未见明显异常（置信度 98%）",
+      "conclusion": "双眼黄斑区结构清晰，RNFL 厚度在正常范围，建议 12 个月后复查",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202609280017",
+      "patientId": "P20260005",
+      "date": "2026-09-28",
+      "deviceId": "OCT-006",
+      "deviceName": "OCT-006",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：未见明显异常（置信度 98%）",
+      "conclusion": "双眼黄斑区及视盘结构未见明显异常",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202610250018",
+      "patientId": "P20260006",
+      "date": "2026-10-25",
+      "deviceId": "OCT-006",
+      "deviceName": "OCT-006",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202607270019",
+      "patientId": "P20260006",
+      "date": "2026-07-27",
+      "deviceId": "OCT-003",
+      "deviceName": "OCT-003",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202605180020",
+      "patientId": "P20260006",
+      "date": "2026-05-18",
+      "deviceId": "OCT-002",
+      "deviceName": "OCT-002",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202604070021",
+      "patientId": "P20260006",
+      "date": "2026-04-07",
+      "deviceId": "OCT-002",
+      "deviceName": "OCT-002",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202602180022",
+      "patientId": "P20260006",
+      "date": "2026-02-18",
+      "deviceId": "OCT-002",
+      "deviceName": "OCT-002",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202601020023",
+      "patientId": "P20260006",
+      "date": "2026-01-02",
+      "deviceId": "OCT-008",
+      "deviceName": "OCT-008",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202610170024",
+      "patientId": "P20260007",
+      "date": "2026-10-17",
+      "deviceId": "OCT-003",
+      "deviceName": "OCT-003",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出黄斑前膜（置信度 95%）",
+      "conclusion": "黄斑区视网膜前高反射带，提示黄斑前膜形成，暂无牵拉征象，建议 6 个月复查",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202608030025",
+      "patientId": "P20260007",
+      "date": "2026-08-03",
+      "deviceId": "OCT-006",
+      "deviceName": "OCT-006",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出黄斑前膜（置信度 95%）",
+      "conclusion": "黄斑区视网膜前高反射带，提示黄斑前膜形成，暂无牵拉征象，建议 6 个月复查",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202606170026",
+      "patientId": "P20260007",
+      "date": "2026-06-17",
+      "deviceId": "OCT-001",
+      "deviceName": "OCT-001",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出黄斑前膜（置信度 95%）",
+      "conclusion": "黄斑区视网膜前高反射带，提示黄斑前膜形成，暂无牵拉征象，建议 6 个月复查",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202604040027",
+      "patientId": "P20260007",
+      "date": "2026-04-04",
+      "deviceId": "OCT-001",
+      "deviceName": "OCT-001",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出黄斑前膜（置信度 95%）",
+      "conclusion": "黄斑区视网膜前高反射带，提示黄斑前膜形成，暂无牵拉征象，建议 6 个月复查",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202601070028",
+      "patientId": "P20260007",
+      "date": "2026-01-07",
+      "deviceId": "OCT-004",
+      "deviceName": "OCT-004",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出黄斑前膜（置信度 95%）",
+      "conclusion": "黄斑区视网膜前高反射带，提示黄斑前膜形成，暂无牵拉征象，建议 6 个月复查",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202511300029",
+      "patientId": "P20260007",
+      "date": "2025-11-30",
+      "deviceId": "OCT-005",
+      "deviceName": "OCT-005",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出黄斑前膜（置信度 95%）",
+      "conclusion": "黄斑区视网膜前高反射带，提示黄斑前膜形成，暂无牵拉征象，建议 6 个月复查",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202609290030",
+      "patientId": "P20260008",
+      "date": "2026-09-29",
+      "deviceId": "OCT-004",
+      "deviceName": "OCT-004",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出视网膜脱离区域（置信度 98%）",
+      "conclusion": "周边视网膜浅脱离累及黄斑外区域，建议尽快行视网膜复位手术评估",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202608210031",
+      "patientId": "P20260008",
+      "date": "2026-08-21",
+      "deviceId": "OCT-002",
+      "deviceName": "OCT-002",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出视网膜脱离区域（置信度 98%）",
+      "conclusion": "周边视网膜浅脱离累及黄斑外区域，建议尽快行视网膜复位手术评估",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202607130032",
+      "patientId": "P20260008",
+      "date": "2026-07-13",
+      "deviceId": "OCT-001",
+      "deviceName": "OCT-001",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出视网膜脱离区域（置信度 98%）",
+      "conclusion": "周边视网膜浅脱离累及黄斑外区域，建议尽快行视网膜复位手术评估",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202609200033",
+      "patientId": "P20260009",
+      "date": "2026-09-20",
+      "deviceId": "OCT-008",
+      "deviceName": "OCT-008",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202609050034",
+      "patientId": "P20260009",
+      "date": "2026-09-05",
+      "deviceId": "OCT-005",
+      "deviceName": "OCT-005",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202606270035",
+      "patientId": "P20260009",
+      "date": "2026-06-27",
+      "deviceId": "OCT-005",
+      "deviceName": "OCT-005",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202604290036",
+      "patientId": "P20260009",
+      "date": "2026-04-29",
+      "deviceId": "OCT-003",
+      "deviceName": "OCT-003",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202604190037",
+      "patientId": "P20260009",
+      "date": "2026-04-19",
+      "deviceId": "OCT-002",
+      "deviceName": "OCT-002",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202602070038",
+      "patientId": "P20260009",
+      "date": "2026-02-07",
+      "deviceId": "OCT-001",
+      "deviceName": "OCT-001",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202609200039",
+      "patientId": "P20260010",
+      "date": "2026-09-20",
+      "deviceId": "OCT-006",
+      "deviceName": "OCT-006",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出视神经纤维层异常（置信度 92%）",
+      "conclusion": "视盘水肿伴 RNFL 弥漫增厚，提示视神经病变，建议结合视野及全身检查",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202608160040",
+      "patientId": "P20260010",
+      "date": "2026-08-16",
+      "deviceId": "OCT-004",
+      "deviceName": "OCT-004",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出视神经纤维层异常（置信度 92%）",
+      "conclusion": "视盘水肿伴 RNFL 弥漫增厚，提示视神经病变，建议结合视野及全身检查",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202605200041",
+      "patientId": "P20260010",
+      "date": "2026-05-20",
+      "deviceId": "OCT-004",
+      "deviceName": "OCT-004",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出视神经纤维层异常（置信度 92%）",
+      "conclusion": "视盘水肿伴 RNFL 弥漫增厚，提示视神经病变，建议结合视野及全身检查",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202604040042",
+      "patientId": "P20260010",
+      "date": "2026-04-04",
+      "deviceId": "OCT-007",
+      "deviceName": "OCT-007",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出视神经纤维层异常（置信度 92%）",
+      "conclusion": "视盘水肿伴 RNFL 弥漫增厚，提示视神经病变，建议结合视野及全身检查",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202603270043",
+      "patientId": "P20260010",
+      "date": "2026-03-27",
+      "deviceId": "OCT-005",
+      "deviceName": "OCT-005",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出视神经纤维层异常（置信度 92%）",
+      "conclusion": "视盘水肿伴 RNFL 弥漫增厚，提示视神经病变，建议结合视野及全身检查",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202602260044",
+      "patientId": "P20260010",
+      "date": "2026-02-26",
+      "deviceId": "OCT-001",
+      "deviceName": "OCT-001",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出视神经纤维层异常（置信度 92%）",
+      "conclusion": "视盘水肿伴 RNFL 弥漫增厚，提示视神经病变，建议结合视野及全身检查",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202610040045",
+      "patientId": "P20260011",
+      "date": "2026-10-04",
+      "deviceId": "OCT-007",
+      "deviceName": "OCT-007",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出视网膜脱离区域（置信度 98%）",
+      "conclusion": "周边视网膜浅脱离累及黄斑外区域，建议尽快行视网膜复位手术评估",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202609160046",
+      "patientId": "P20260011",
+      "date": "2026-09-16",
+      "deviceId": "OCT-003",
+      "deviceName": "OCT-003",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出视网膜脱离区域（置信度 98%）",
+      "conclusion": "周边视网膜浅脱离累及黄斑外区域，建议尽快行视网膜复位手术评估",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202608020047",
+      "patientId": "P20260011",
+      "date": "2026-08-02",
+      "deviceId": "OCT-006",
+      "deviceName": "OCT-006",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出视网膜脱离区域（置信度 98%）",
+      "conclusion": "周边视网膜浅脱离累及黄斑外区域，建议尽快行视网膜复位手术评估",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202605200048",
+      "patientId": "P20260011",
+      "date": "2026-05-20",
+      "deviceId": "OCT-001",
+      "deviceName": "OCT-001",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出视网膜脱离区域（置信度 98%）",
+      "conclusion": "周边视网膜浅脱离累及黄斑外区域，建议尽快行视网膜复位手术评估",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202605020049",
+      "patientId": "P20260011",
+      "date": "2026-05-02",
+      "deviceId": "OCT-007",
+      "deviceName": "OCT-007",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出视网膜脱离区域（置信度 98%）",
+      "conclusion": "周边视网膜浅脱离累及黄斑外区域，建议尽快行视网膜复位手术评估",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202609230050",
+      "patientId": "P20260012",
+      "date": "2026-09-23",
+      "deviceId": "OCT-002",
+      "deviceName": "OCT-002",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出视网膜脱离区域（置信度 98%）",
+      "conclusion": "周边视网膜浅脱离累及黄斑外区域，建议尽快行视网膜复位手术评估",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202608080051",
+      "patientId": "P20260012",
+      "date": "2026-08-08",
+      "deviceId": "OCT-005",
+      "deviceName": "OCT-005",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出视网膜脱离区域（置信度 98%）",
+      "conclusion": "周边视网膜浅脱离累及黄斑外区域，建议尽快行视网膜复位手术评估",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202607040052",
+      "patientId": "P20260012",
+      "date": "2026-07-04",
+      "deviceId": "OCT-001",
+      "deviceName": "OCT-001",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出视网膜脱离区域（置信度 98%）",
+      "conclusion": "周边视网膜浅脱离累及黄斑外区域，建议尽快行视网膜复位手术评估",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202610070053",
+      "patientId": "P20260013",
+      "date": "2026-10-07",
+      "deviceId": "OCT-001",
+      "deviceName": "OCT-001",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出青光眼杯盘比异常（置信度 94%）",
+      "conclusion": "视杯盘比增大，RNFL 厚度变薄，提示青光眼性视神经损害，建议完善视野检查并规律随访",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202608200054",
+      "patientId": "P20260013",
+      "date": "2026-08-20",
+      "deviceId": "OCT-001",
+      "deviceName": "OCT-001",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出青光眼杯盘比异常（置信度 94%）",
+      "conclusion": "视杯盘比增大，RNFL 厚度变薄，提示青光眼性视神经损害，建议完善视野检查并规律随访",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202607170055",
+      "patientId": "P20260013",
+      "date": "2026-07-17",
+      "deviceId": "OCT-001",
+      "deviceName": "OCT-001",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出青光眼杯盘比异常（置信度 94%）",
+      "conclusion": "视杯盘比增大，RNFL 厚度变薄，提示青光眼性视神经损害，建议完善视野检查并规律随访",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202605310056",
+      "patientId": "P20260013",
+      "date": "2026-05-31",
+      "deviceId": "OCT-001",
+      "deviceName": "OCT-001",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出青光眼杯盘比异常（置信度 94%）",
+      "conclusion": "视杯盘比增大，RNFL 厚度变薄，提示青光眼性视神经损害，建议完善视野检查并规律随访",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202604270057",
+      "patientId": "P20260013",
+      "date": "2026-04-27",
+      "deviceId": "OCT-007",
+      "deviceName": "OCT-007",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出青光眼杯盘比异常（置信度 94%）",
+      "conclusion": "视杯盘比增大，RNFL 厚度变薄，提示青光眼性视神经损害，建议完善视野检查并规律随访",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202610010058",
+      "patientId": "P20260014",
+      "date": "2026-10-01",
+      "deviceId": "OCT-002",
+      "deviceName": "OCT-002",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出黄斑前膜（置信度 95%）",
+      "conclusion": "黄斑区视网膜前高反射带，提示黄斑前膜形成，暂无牵拉征象，建议 6 个月复查",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202607280059",
+      "patientId": "P20260014",
+      "date": "2026-07-28",
+      "deviceId": "OCT-001",
+      "deviceName": "OCT-001",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出黄斑前膜（置信度 95%）",
+      "conclusion": "黄斑区视网膜前高反射带，提示黄斑前膜形成，暂无牵拉征象，建议 6 个月复查",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202605200060",
+      "patientId": "P20260014",
+      "date": "2026-05-20",
+      "deviceId": "OCT-003",
+      "deviceName": "OCT-003",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出黄斑前膜（置信度 95%）",
+      "conclusion": "黄斑区视网膜前高反射带，提示黄斑前膜形成，暂无牵拉征象，建议 6 个月复查",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202602260061",
+      "patientId": "P20260014",
+      "date": "2026-02-26",
+      "deviceId": "OCT-005",
+      "deviceName": "OCT-005",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出黄斑前膜（置信度 95%）",
+      "conclusion": "黄斑区视网膜前高反射带，提示黄斑前膜形成，暂无牵拉征象，建议 6 个月复查",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202512050062",
+      "patientId": "P20260014",
+      "date": "2025-12-05",
+      "deviceId": "OCT-002",
+      "deviceName": "OCT-002",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出黄斑前膜（置信度 95%）",
+      "conclusion": "黄斑区视网膜前高反射带，提示黄斑前膜形成，暂无牵拉征象，建议 6 个月复查",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202509160063",
+      "patientId": "P20260014",
+      "date": "2025-09-16",
+      "deviceId": "OCT-006",
+      "deviceName": "OCT-006",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出黄斑前膜（置信度 95%）",
+      "conclusion": "黄斑区视网膜前高反射带，提示黄斑前膜形成，暂无牵拉征象，建议 6 个月复查",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202609160064",
+      "patientId": "P20260015",
+      "date": "2026-09-16",
+      "deviceId": "OCT-006",
+      "deviceName": "OCT-006",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：未见明显异常（置信度 98%）",
+      "conclusion": "双眼黄斑区结构清晰，RNFL 厚度在正常范围，建议 12 个月后复查",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202606220065",
+      "patientId": "P20260015",
+      "date": "2026-06-22",
+      "deviceId": "OCT-001",
+      "deviceName": "OCT-001",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：未见明显异常（置信度 98%）",
+      "conclusion": "双眼黄斑区及视盘结构未见明显异常",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202610050066",
+      "patientId": "P20260016",
+      "date": "2026-10-05",
+      "deviceId": "OCT-006",
+      "deviceName": "OCT-006",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出黄斑前膜（置信度 95%）",
+      "conclusion": "黄斑区视网膜前高反射带，提示黄斑前膜形成，暂无牵拉征象，建议 6 个月复查",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202609250067",
+      "patientId": "P20260016",
+      "date": "2026-09-25",
+      "deviceId": "OCT-006",
+      "deviceName": "OCT-006",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出黄斑前膜（置信度 95%）",
+      "conclusion": "黄斑区视网膜前高反射带，提示黄斑前膜形成，暂无牵拉征象，建议 6 个月复查",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202607150068",
+      "patientId": "P20260016",
+      "date": "2026-07-15",
+      "deviceId": "OCT-001",
+      "deviceName": "OCT-001",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出黄斑前膜（置信度 95%）",
+      "conclusion": "黄斑区视网膜前高反射带，提示黄斑前膜形成，暂无牵拉征象，建议 6 个月复查",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202605300069",
+      "patientId": "P20260016",
+      "date": "2026-05-30",
+      "deviceId": "OCT-003",
+      "deviceName": "OCT-003",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出黄斑前膜（置信度 95%）",
+      "conclusion": "黄斑区视网膜前高反射带，提示黄斑前膜形成，暂无牵拉征象，建议 6 个月复查",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202604160070",
+      "patientId": "P20260016",
+      "date": "2026-04-16",
+      "deviceId": "OCT-002",
+      "deviceName": "OCT-002",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出黄斑前膜（置信度 95%）",
+      "conclusion": "黄斑区视网膜前高反射带，提示黄斑前膜形成，暂无牵拉征象，建议 6 个月复查",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202609170071",
+      "patientId": "P20260017",
+      "date": "2026-09-17",
+      "deviceId": "OCT-004",
+      "deviceName": "OCT-004",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：未见明显异常（置信度 98%）",
+      "conclusion": "双眼黄斑区结构清晰，RNFL 厚度在正常范围，建议 12 个月后复查",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202607230072",
+      "patientId": "P20260017",
+      "date": "2026-07-23",
+      "deviceId": "OCT-004",
+      "deviceName": "OCT-004",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：未见明显异常（置信度 98%）",
+      "conclusion": "双眼黄斑区及视盘结构未见明显异常",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202609170073",
+      "patientId": "P20260018",
+      "date": "2026-09-17",
+      "deviceId": "OCT-005",
+      "deviceName": "OCT-005",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：未见明显异常（置信度 98%）",
+      "conclusion": "双眼黄斑区结构清晰，RNFL 厚度在正常范围，建议 12 个月后复查",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202609180074",
+      "patientId": "P20260019",
+      "date": "2026-09-18",
+      "deviceId": "OCT-006",
+      "deviceName": "OCT-006",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出视神经纤维层异常（置信度 92%）",
+      "conclusion": "视盘水肿伴 RNFL 弥漫增厚，提示视神经病变，建议结合视野及全身检查",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202606260075",
+      "patientId": "P20260019",
+      "date": "2026-06-26",
+      "deviceId": "OCT-004",
+      "deviceName": "OCT-004",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出视神经纤维层异常（置信度 92%）",
+      "conclusion": "视盘水肿伴 RNFL 弥漫增厚，提示视神经病变，建议结合视野及全身检查",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202605080076",
+      "patientId": "P20260019",
+      "date": "2026-05-08",
+      "deviceId": "OCT-003",
+      "deviceName": "OCT-003",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出视神经纤维层异常（置信度 92%）",
+      "conclusion": "视盘水肿伴 RNFL 弥漫增厚，提示视神经病变，建议结合视野及全身检查",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202603290077",
+      "patientId": "P20260019",
+      "date": "2026-03-29",
+      "deviceId": "OCT-003",
+      "deviceName": "OCT-003",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出视神经纤维层异常（置信度 92%）",
+      "conclusion": "视盘水肿伴 RNFL 弥漫增厚，提示视神经病变，建议结合视野及全身检查",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202603160078",
+      "patientId": "P20260019",
+      "date": "2026-03-16",
+      "deviceId": "OCT-003",
+      "deviceName": "OCT-003",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出视神经纤维层异常（置信度 92%）",
+      "conclusion": "视盘水肿伴 RNFL 弥漫增厚，提示视神经病变，建议结合视野及全身检查",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202601260079",
+      "patientId": "P20260019",
+      "date": "2026-01-26",
+      "deviceId": "OCT-006",
+      "deviceName": "OCT-006",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出视神经纤维层异常（置信度 92%）",
+      "conclusion": "视盘水肿伴 RNFL 弥漫增厚，提示视神经病变，建议结合视野及全身检查",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202610250080",
+      "patientId": "P20260020",
+      "date": "2026-10-25",
+      "deviceId": "OCT-007",
+      "deviceName": "OCT-007",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出青光眼杯盘比异常（置信度 94%）",
+      "conclusion": "视杯盘比增大，RNFL 厚度变薄，提示青光眼性视神经损害，建议完善视野检查并规律随访",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202608220081",
+      "patientId": "P20260020",
+      "date": "2026-08-22",
+      "deviceId": "OCT-001",
+      "deviceName": "OCT-001",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出青光眼杯盘比异常（置信度 94%）",
+      "conclusion": "视杯盘比增大，RNFL 厚度变薄，提示青光眼性视神经损害，建议完善视野检查并规律随访",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202608110082",
+      "patientId": "P20260020",
+      "date": "2026-08-11",
+      "deviceId": "OCT-004",
+      "deviceName": "OCT-004",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出青光眼杯盘比异常（置信度 94%）",
+      "conclusion": "视杯盘比增大，RNFL 厚度变薄，提示青光眼性视神经损害，建议完善视野检查并规律随访",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202609180083",
+      "patientId": "P20260021",
+      "date": "2026-09-18",
+      "deviceId": "OCT-004",
+      "deviceName": "OCT-004",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出黄斑变性玻璃膜疣（置信度 93%）",
+      "conclusion": "黄斑区玻璃膜疣及 RPE 改变，提示年龄相关性黄斑变性（干性），建议补充 AREDS 配方并随访",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202608020084",
+      "patientId": "P20260021",
+      "date": "2026-08-02",
+      "deviceId": "OCT-005",
+      "deviceName": "OCT-005",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出黄斑变性玻璃膜疣（置信度 93%）",
+      "conclusion": "黄斑区玻璃膜疣及 RPE 改变，提示年龄相关性黄斑变性（干性），建议补充 AREDS 配方并随访",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202605060085",
+      "patientId": "P20260021",
+      "date": "2026-05-06",
+      "deviceId": "OCT-006",
+      "deviceName": "OCT-006",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出黄斑变性玻璃膜疣（置信度 93%）",
+      "conclusion": "黄斑区玻璃膜疣及 RPE 改变，提示年龄相关性黄斑变性（干性），建议补充 AREDS 配方并随访",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202604110086",
+      "patientId": "P20260021",
+      "date": "2026-04-11",
+      "deviceId": "OCT-004",
+      "deviceName": "OCT-004",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出黄斑变性玻璃膜疣（置信度 93%）",
+      "conclusion": "黄斑区玻璃膜疣及 RPE 改变，提示年龄相关性黄斑变性（干性），建议补充 AREDS 配方并随访",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202601120087",
+      "patientId": "P20260021",
+      "date": "2026-01-12",
+      "deviceId": "OCT-001",
+      "deviceName": "OCT-001",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出黄斑变性玻璃膜疣（置信度 93%）",
+      "conclusion": "黄斑区玻璃膜疣及 RPE 改变，提示年龄相关性黄斑变性（干性），建议补充 AREDS 配方并随访",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202610050088",
+      "patientId": "P20260022",
+      "date": "2026-10-05",
+      "deviceId": "OCT-001",
+      "deviceName": "OCT-001",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出黄斑前膜（置信度 95%）",
+      "conclusion": "黄斑区视网膜前高反射带，提示黄斑前膜形成，暂无牵拉征象，建议 6 个月复查",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202609180089",
+      "patientId": "P20260022",
+      "date": "2026-09-18",
+      "deviceId": "OCT-006",
+      "deviceName": "OCT-006",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出黄斑前膜（置信度 95%）",
+      "conclusion": "黄斑区视网膜前高反射带，提示黄斑前膜形成，暂无牵拉征象，建议 6 个月复查",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202607290090",
+      "patientId": "P20260022",
+      "date": "2026-07-29",
+      "deviceId": "OCT-006",
+      "deviceName": "OCT-006",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出黄斑前膜（置信度 95%）",
+      "conclusion": "黄斑区视网膜前高反射带，提示黄斑前膜形成，暂无牵拉征象，建议 6 个月复查",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202607220091",
+      "patientId": "P20260022",
+      "date": "2026-07-22",
+      "deviceId": "OCT-004",
+      "deviceName": "OCT-004",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出黄斑前膜（置信度 95%）",
+      "conclusion": "黄斑区视网膜前高反射带，提示黄斑前膜形成，暂无牵拉征象，建议 6 个月复查",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202607080092",
+      "patientId": "P20260022",
+      "date": "2026-07-08",
+      "deviceId": "OCT-003",
+      "deviceName": "OCT-003",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出黄斑前膜（置信度 95%）",
+      "conclusion": "黄斑区视网膜前高反射带，提示黄斑前膜形成，暂无牵拉征象，建议 6 个月复查",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202610170093",
+      "patientId": "P20260023",
+      "date": "2026-10-17",
+      "deviceId": "OCT-001",
+      "deviceName": "OCT-001",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出青光眼杯盘比异常（置信度 94%）",
+      "conclusion": "视杯盘比增大，RNFL 厚度变薄，提示青光眼性视神经损害，建议完善视野检查并规律随访",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202608200094",
+      "patientId": "P20260023",
+      "date": "2026-08-20",
+      "deviceId": "OCT-004",
+      "deviceName": "OCT-004",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出青光眼杯盘比异常（置信度 94%）",
+      "conclusion": "视杯盘比增大，RNFL 厚度变薄，提示青光眼性视神经损害，建议完善视野检查并规律随访",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202606130095",
+      "patientId": "P20260023",
+      "date": "2026-06-13",
+      "deviceId": "OCT-001",
+      "deviceName": "OCT-001",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出青光眼杯盘比异常（置信度 94%）",
+      "conclusion": "视杯盘比增大，RNFL 厚度变薄，提示青光眼性视神经损害，建议完善视野检查并规律随访",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202605050096",
+      "patientId": "P20260023",
+      "date": "2026-05-05",
+      "deviceId": "OCT-002",
+      "deviceName": "OCT-002",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出青光眼杯盘比异常（置信度 94%）",
+      "conclusion": "视杯盘比增大，RNFL 厚度变薄，提示青光眼性视神经损害，建议完善视野检查并规律随访",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202602070097",
+      "patientId": "P20260023",
+      "date": "2026-02-07",
+      "deviceId": "OCT-007",
+      "deviceName": "OCT-007",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出青光眼杯盘比异常（置信度 94%）",
+      "conclusion": "视杯盘比增大，RNFL 厚度变薄，提示青光眼性视神经损害，建议完善视野检查并规律随访",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202512120098",
+      "patientId": "P20260023",
+      "date": "2025-12-12",
+      "deviceId": "OCT-007",
+      "deviceName": "OCT-007",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出青光眼杯盘比异常（置信度 94%）",
+      "conclusion": "视杯盘比增大，RNFL 厚度变薄，提示青光眼性视神经损害，建议完善视野检查并规律随访",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202610030099",
+      "patientId": "P20260024",
+      "date": "2026-10-03",
+      "deviceId": "OCT-004",
+      "deviceName": "OCT-004",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出青光眼杯盘比异常（置信度 94%）",
+      "conclusion": "视杯盘比增大，RNFL 厚度变薄，提示青光眼性视神经损害，建议完善视野检查并规律随访",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202608110100",
+      "patientId": "P20260024",
+      "date": "2026-08-11",
+      "deviceId": "OCT-004",
+      "deviceName": "OCT-004",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出青光眼杯盘比异常（置信度 94%）",
+      "conclusion": "视杯盘比增大，RNFL 厚度变薄，提示青光眼性视神经损害，建议完善视野检查并规律随访",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202610170101",
+      "patientId": "P20260025",
+      "date": "2026-10-17",
+      "deviceId": "OCT-003",
+      "deviceName": "OCT-003",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：未见明显异常（置信度 98%）",
+      "conclusion": "双眼黄斑区结构清晰，RNFL 厚度在正常范围，建议 12 个月后复查",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202608270102",
+      "patientId": "P20260025",
+      "date": "2026-08-27",
+      "deviceId": "OCT-007",
+      "deviceName": "OCT-007",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：未见明显异常（置信度 98%）",
+      "conclusion": "双眼黄斑区及视盘结构未见明显异常",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202609290103",
+      "patientId": "P20260026",
+      "date": "2026-09-29",
+      "deviceId": "OCT-006",
+      "deviceName": "OCT-006",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出青光眼杯盘比异常（置信度 94%）",
+      "conclusion": "视杯盘比增大，RNFL 厚度变薄，提示青光眼性视神经损害，建议完善视野检查并规律随访",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202608260104",
+      "patientId": "P20260026",
+      "date": "2026-08-26",
+      "deviceId": "OCT-003",
+      "deviceName": "OCT-003",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出青光眼杯盘比异常（置信度 94%）",
+      "conclusion": "视杯盘比增大，RNFL 厚度变薄，提示青光眼性视神经损害，建议完善视野检查并规律随访",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202606290105",
+      "patientId": "P20260026",
+      "date": "2026-06-29",
+      "deviceId": "OCT-004",
+      "deviceName": "OCT-004",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出青光眼杯盘比异常（置信度 94%）",
+      "conclusion": "视杯盘比增大，RNFL 厚度变薄，提示青光眼性视神经损害，建议完善视野检查并规律随访",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202609200106",
+      "patientId": "P20260027",
+      "date": "2026-09-20",
+      "deviceId": "OCT-005",
+      "deviceName": "OCT-005",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202607290107",
+      "patientId": "P20260027",
+      "date": "2026-07-29",
+      "deviceId": "OCT-003",
+      "deviceName": "OCT-003",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202606100108",
+      "patientId": "P20260027",
+      "date": "2026-06-10",
+      "deviceId": "OCT-006",
+      "deviceName": "OCT-006",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202606010109",
+      "patientId": "P20260027",
+      "date": "2026-06-01",
+      "deviceId": "OCT-008",
+      "deviceName": "OCT-008",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202609260110",
+      "patientId": "P20260028",
+      "date": "2026-09-26",
+      "deviceId": "OCT-001",
+      "deviceName": "OCT-001",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202609120111",
+      "patientId": "P20260028",
+      "date": "2026-09-12",
+      "deviceId": "OCT-002",
+      "deviceName": "OCT-002",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202606220112",
+      "patientId": "P20260028",
+      "date": "2026-06-22",
+      "deviceId": "OCT-003",
+      "deviceName": "OCT-003",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202606040113",
+      "patientId": "P20260028",
+      "date": "2026-06-04",
+      "deviceId": "OCT-001",
+      "deviceName": "OCT-001",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202609300114",
+      "patientId": "P20260029",
+      "date": "2026-09-30",
+      "deviceId": "OCT-007",
+      "deviceName": "OCT-007",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202608280115",
+      "patientId": "P20260029",
+      "date": "2026-08-28",
+      "deviceId": "OCT-003",
+      "deviceName": "OCT-003",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202608150116",
+      "patientId": "P20260029",
+      "date": "2026-08-15",
+      "deviceId": "OCT-007",
+      "deviceName": "OCT-007",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202607140117",
+      "patientId": "P20260029",
+      "date": "2026-07-14",
+      "deviceId": "OCT-005",
+      "deviceName": "OCT-005",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202607050118",
+      "patientId": "P20260029",
+      "date": "2026-07-05",
+      "deviceId": "OCT-005",
+      "deviceName": "OCT-005",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202606010119",
+      "patientId": "P20260029",
+      "date": "2026-06-01",
+      "deviceId": "OCT-005",
+      "deviceName": "OCT-005",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202610060120",
+      "patientId": "P20260030",
+      "date": "2026-10-06",
+      "deviceId": "OCT-004",
+      "deviceName": "OCT-004",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202609210121",
+      "patientId": "P20260030",
+      "date": "2026-09-21",
+      "deviceId": "OCT-003",
+      "deviceName": "OCT-003",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202607310122",
+      "patientId": "P20260030",
+      "date": "2026-07-31",
+      "deviceId": "OCT-008",
+      "deviceName": "OCT-008",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202609220123",
+      "patientId": "P20260031",
+      "date": "2026-09-22",
+      "deviceId": "OCT-003",
+      "deviceName": "OCT-003",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出青光眼杯盘比异常（置信度 94%）",
+      "conclusion": "视杯盘比增大，RNFL 厚度变薄，提示青光眼性视神经损害，建议完善视野检查并规律随访",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202606250124",
+      "patientId": "P20260031",
+      "date": "2026-06-25",
+      "deviceId": "OCT-004",
+      "deviceName": "OCT-004",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出青光眼杯盘比异常（置信度 94%）",
+      "conclusion": "视杯盘比增大，RNFL 厚度变薄，提示青光眼性视神经损害，建议完善视野检查并规律随访",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202604270125",
+      "patientId": "P20260031",
+      "date": "2026-04-27",
+      "deviceId": "OCT-003",
+      "deviceName": "OCT-003",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出青光眼杯盘比异常（置信度 94%）",
+      "conclusion": "视杯盘比增大，RNFL 厚度变薄，提示青光眼性视神经损害，建议完善视野检查并规律随访",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202604110126",
+      "patientId": "P20260031",
+      "date": "2026-04-11",
+      "deviceId": "OCT-002",
+      "deviceName": "OCT-002",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出青光眼杯盘比异常（置信度 94%）",
+      "conclusion": "视杯盘比增大，RNFL 厚度变薄，提示青光眼性视神经损害，建议完善视野检查并规律随访",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202601220127",
+      "patientId": "P20260031",
+      "date": "2026-01-22",
+      "deviceId": "OCT-002",
+      "deviceName": "OCT-002",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出青光眼杯盘比异常（置信度 94%）",
+      "conclusion": "视杯盘比增大，RNFL 厚度变薄，提示青光眼性视神经损害，建议完善视野检查并规律随访",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202512060128",
+      "patientId": "P20260031",
+      "date": "2025-12-06",
+      "deviceId": "OCT-003",
+      "deviceName": "OCT-003",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出青光眼杯盘比异常（置信度 94%）",
+      "conclusion": "视杯盘比增大，RNFL 厚度变薄，提示青光眼性视神经损害，建议完善视野检查并规律随访",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202610040129",
+      "patientId": "P20260032",
+      "date": "2026-10-04",
+      "deviceId": "OCT-005",
+      "deviceName": "OCT-005",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：未见明显异常（置信度 98%）",
+      "conclusion": "双眼黄斑区结构清晰，RNFL 厚度在正常范围，建议 12 个月后复查",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202610210130",
+      "patientId": "P20260033",
+      "date": "2026-10-21",
+      "deviceId": "OCT-001",
+      "deviceName": "OCT-001",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202607260131",
+      "patientId": "P20260033",
+      "date": "2026-07-26",
+      "deviceId": "OCT-005",
+      "deviceName": "OCT-005",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202605140132",
+      "patientId": "P20260033",
+      "date": "2026-05-14",
+      "deviceId": "OCT-002",
+      "deviceName": "OCT-002",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202604110133",
+      "patientId": "P20260033",
+      "date": "2026-04-11",
+      "deviceId": "OCT-005",
+      "deviceName": "OCT-005",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202603310134",
+      "patientId": "P20260033",
+      "date": "2026-03-31",
+      "deviceId": "OCT-001",
+      "deviceName": "OCT-001",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202602010135",
+      "patientId": "P20260033",
+      "date": "2026-02-01",
+      "deviceId": "OCT-002",
+      "deviceName": "OCT-002",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202610070136",
+      "patientId": "P20260034",
+      "date": "2026-10-07",
+      "deviceId": "OCT-002",
+      "deviceName": "OCT-002",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出黄斑水肿区域（置信度 97%）",
+      "conclusion": "黄斑中心凹厚度增加，视网膜层间囊样低反射腔，提示黄斑水肿，建议抗 VEGF 治疗评估",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202607190137",
+      "patientId": "P20260034",
+      "date": "2026-07-19",
+      "deviceId": "OCT-003",
+      "deviceName": "OCT-003",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出黄斑水肿区域（置信度 97%）",
+      "conclusion": "黄斑中心凹厚度增加，视网膜层间囊样低反射腔，提示黄斑水肿，建议抗 VEGF 治疗评估",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202606220138",
+      "patientId": "P20260034",
+      "date": "2026-06-22",
+      "deviceId": "OCT-004",
+      "deviceName": "OCT-004",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出黄斑水肿区域（置信度 97%）",
+      "conclusion": "黄斑中心凹厚度增加，视网膜层间囊样低反射腔，提示黄斑水肿，建议抗 VEGF 治疗评估",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202604220139",
+      "patientId": "P20260034",
+      "date": "2026-04-22",
+      "deviceId": "OCT-004",
+      "deviceName": "OCT-004",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出黄斑水肿区域（置信度 97%）",
+      "conclusion": "黄斑中心凹厚度增加，视网膜层间囊样低反射腔，提示黄斑水肿，建议抗 VEGF 治疗评估",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202603140140",
+      "patientId": "P20260034",
+      "date": "2026-03-14",
+      "deviceId": "OCT-005",
+      "deviceName": "OCT-005",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出黄斑水肿区域（置信度 97%）",
+      "conclusion": "黄斑中心凹厚度增加，视网膜层间囊样低反射腔，提示黄斑水肿，建议抗 VEGF 治疗评估",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202609190141",
+      "patientId": "P20260035",
+      "date": "2026-09-19",
+      "deviceId": "OCT-001",
+      "deviceName": "OCT-001",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出黄斑变性玻璃膜疣（置信度 93%）",
+      "conclusion": "黄斑区玻璃膜疣及 RPE 改变，提示年龄相关性黄斑变性（干性），建议补充 AREDS 配方并随访",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202606260142",
+      "patientId": "P20260035",
+      "date": "2026-06-26",
+      "deviceId": "OCT-005",
+      "deviceName": "OCT-005",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出黄斑变性玻璃膜疣（置信度 93%）",
+      "conclusion": "黄斑区玻璃膜疣及 RPE 改变，提示年龄相关性黄斑变性（干性），建议补充 AREDS 配方并随访",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202609200143",
+      "patientId": "P20260036",
+      "date": "2026-09-20",
+      "deviceId": "OCT-006",
+      "deviceName": "OCT-006",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：未见明显异常（置信度 98%）",
+      "conclusion": "双眼黄斑区结构清晰，RNFL 厚度在正常范围，建议 12 个月后复查",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202608200144",
+      "patientId": "P20260036",
+      "date": "2026-08-20",
+      "deviceId": "OCT-003",
+      "deviceName": "OCT-003",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：未见明显异常（置信度 98%）",
+      "conclusion": "双眼黄斑区及视盘结构未见明显异常",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202610100145",
+      "patientId": "P20260037",
+      "date": "2026-10-10",
+      "deviceId": "OCT-001",
+      "deviceName": "OCT-001",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出青光眼杯盘比异常（置信度 94%）",
+      "conclusion": "视杯盘比增大，RNFL 厚度变薄，提示青光眼性视神经损害，建议完善视野检查并规律随访",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202608280146",
+      "patientId": "P20260037",
+      "date": "2026-08-28",
+      "deviceId": "OCT-006",
+      "deviceName": "OCT-006",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出青光眼杯盘比异常（置信度 94%）",
+      "conclusion": "视杯盘比增大，RNFL 厚度变薄，提示青光眼性视神经损害，建议完善视野检查并规律随访",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202606250147",
+      "patientId": "P20260037",
+      "date": "2026-06-25",
+      "deviceId": "OCT-006",
+      "deviceName": "OCT-006",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出青光眼杯盘比异常（置信度 94%）",
+      "conclusion": "视杯盘比增大，RNFL 厚度变薄，提示青光眼性视神经损害，建议完善视野检查并规律随访",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202609270148",
+      "patientId": "P20260038",
+      "date": "2026-09-27",
+      "deviceId": "OCT-003",
+      "deviceName": "OCT-003",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202609170149",
+      "patientId": "P20260038",
+      "date": "2026-09-17",
+      "deviceId": "OCT-006",
+      "deviceName": "OCT-006",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202607060150",
+      "patientId": "P20260038",
+      "date": "2026-07-06",
+      "deviceId": "OCT-004",
+      "deviceName": "OCT-004",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出糖尿病视网膜病变病灶（置信度 96%）",
+      "conclusion": "双眼视网膜散在微血管瘤及点状出血，符合糖尿病视网膜病变（早期）表现，建议控制血糖并 3 个月复查",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202610120151",
+      "patientId": "P20260039",
+      "date": "2026-10-12",
+      "deviceId": "OCT-005",
+      "deviceName": "OCT-005",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：未见明显异常（置信度 98%）",
+      "conclusion": "双眼黄斑区结构清晰，RNFL 厚度在正常范围，建议 12 个月后复查",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202610030152",
+      "patientId": "P20260039",
+      "date": "2026-10-03",
+      "deviceId": "OCT-003",
+      "deviceName": "OCT-003",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：未见明显异常（置信度 98%）",
+      "conclusion": "双眼黄斑区及视盘结构未见明显异常",
+      "doctor": "陈明",
+      "reportReady": true
+    },
+    {
+      "id": "E202610060153",
+      "patientId": "P20260040",
+      "date": "2026-10-06",
+      "deviceId": "OCT-007",
+      "deviceName": "OCT-007",
+      "type": "SD-OCT 眼底断层扫描",
+      "aiResult": "AI 初筛：检出视神经纤维层异常（置信度 92%）",
+      "conclusion": "视盘水肿伴 RNFL 弥漫增厚，提示视神经病变，建议结合视野及全身检查",
+      "doctor": "李文方",
+      "reportReady": true
+    },
+    {
+      "id": "E202608060154",
+      "patientId": "P20260040",
+      "date": "2026-08-06",
+      "deviceId": "OCT-004",
+      "deviceName": "OCT-004",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出视神经纤维层异常（置信度 92%）",
+      "conclusion": "视盘水肿伴 RNFL 弥漫增厚，提示视神经病变，建议结合视野及全身检查",
+      "doctor": "周雅琴",
+      "reportReady": true
+    },
+    {
+      "id": "E202605220155",
+      "patientId": "P20260040",
+      "date": "2026-05-22",
+      "deviceId": "OCT-003",
+      "deviceName": "OCT-003",
+      "type": "SS-OCT 深度成像检查",
+      "aiResult": "AI 初筛：检出视神经纤维层异常（置信度 92%）",
+      "conclusion": "视盘水肿伴 RNFL 弥漫增厚，提示视神经病变，建议结合视野及全身检查",
+      "doctor": "陈明",
+      "reportReady": true
+    }
+  ],
+  "reservations": [
+    {
+      "id": "R001",
+      "patientId": "P20260004",
+      "patientName": "吴志强",
+      "examType": "SD-OCT 眼底断层扫描",
+      "deviceId": "OCT-001",
+      "deviceName": "SD-OCT 眼部扫描仪 01",
+      "date": "2026-10-29",
+      "slot": "15:00-15:30",
+      "status": "待检查",
+      "createdAt": "2026-10-29"
+    },
+    {
+      "id": "R002",
+      "patientId": "P20260011",
+      "patientName": "何梦洁",
+      "examType": "SS-OCT 深度成像检查",
+      "deviceId": "OCT-003",
+      "deviceName": "SS-OCT 深度成像仪 01",
+      "date": "2026-10-29",
+      "slot": "08:30-09:00",
+      "status": "待检查",
+      "createdAt": "2026-10-29"
+    },
+    {
+      "id": "R003",
+      "patientId": "P20260018",
+      "patientName": "林欣然",
+      "examType": "SD-OCT 眼底断层扫描",
+      "deviceId": "OCT-002",
+      "deviceName": "SD-OCT 眼部扫描仪 02",
+      "date": "2026-10-29",
+      "slot": "13:00-13:30",
+      "status": "待检查",
+      "createdAt": "2026-10-29"
+    },
+    {
+      "id": "R004",
+      "patientId": "P20260025",
+      "patientName": "罗文博",
+      "examType": "SD-OCT 眼底断层扫描",
+      "deviceId": "OCT-005",
+      "deviceName": "SD-OCT 眼部扫描仪 03",
+      "date": "2026-10-29",
+      "slot": "11:00-11:30",
+      "status": "待检查",
+      "createdAt": "2026-10-29"
+    },
+    {
+      "id": "R005",
+      "patientId": "P20260032",
+      "patientName": "吴磊",
+      "examType": "SD-OCT 眼底断层扫描",
+      "deviceId": "OCT-005",
+      "deviceName": "SD-OCT 眼部扫描仪 03",
+      "date": "2026-10-29",
+      "slot": "13:30-14:00",
+      "status": "待检查",
+      "createdAt": "2026-10-29"
+    },
+    {
+      "id": "R006",
+      "patientId": "P20260007",
+      "patientName": "张淑芬",
+      "examType": "SS-OCT 深度成像检查",
+      "deviceId": "OCT-003",
+      "deviceName": "SS-OCT 深度成像仪 01",
+      "date": "2026-10-29",
+      "slot": "11:30-12:00",
+      "status": "已取消",
+      "createdAt": "2026-10-29"
+    },
+    {
+      "id": "R007",
+      "patientId": "P20260039",
+      "patientName": "朱佳琪",
+      "examType": "SS-OCT 深度成像检查",
+      "deviceId": "OCT-003",
+      "deviceName": "SS-OCT 深度成像仪 01",
+      "date": "2026-10-29",
+      "slot": "14:00-14:30",
+      "status": "待检查",
+      "createdAt": "2026-10-29"
+    },
+    {
+      "id": "R008",
+      "patientId": "P20260002",
+      "patientName": "高立诚",
+      "examType": "SD-OCT 眼底断层扫描",
+      "deviceId": "OCT-001",
+      "deviceName": "SD-OCT 眼部扫描仪 01",
+      "date": "2026-10-30",
+      "slot": "11:30-12:00",
+      "status": "待检查",
+      "createdAt": "2026-10-29"
+    },
+    {
+      "id": "R009",
+      "patientId": "P20260009",
+      "patientName": "罗秀英",
+      "examType": "SD-OCT 眼底断层扫描",
+      "deviceId": "OCT-005",
+      "deviceName": "SD-OCT 眼部扫描仪 03",
+      "date": "2026-10-30",
+      "slot": "11:00-11:30",
+      "status": "待检查",
+      "createdAt": "2026-10-29"
+    },
+    {
+      "id": "R010",
+      "patientId": "P20260016",
+      "patientName": "张子轩",
+      "examType": "SS-OCT 深度成像检查",
+      "deviceId": "OCT-006",
+      "deviceName": "SS-OCT 深度成像仪 03",
+      "date": "2026-10-30",
+      "slot": "16:00-16:30",
+      "status": "待检查",
+      "createdAt": "2026-10-29"
+    },
+    {
+      "id": "R011",
+      "patientId": "P20260023",
+      "patientName": "周海燕",
+      "examType": "SS-OCT 深度成像检查",
+      "deviceId": "OCT-006",
+      "deviceName": "SS-OCT 深度成像仪 03",
+      "date": "2026-10-30",
+      "slot": "11:30-12:00",
+      "status": "待检查",
+      "createdAt": "2026-10-29"
+    },
+    {
+      "id": "R012",
+      "patientId": "P20260030",
+      "patientName": "刘明浩",
+      "examType": "SS-OCT 深度成像检查",
+      "deviceId": "OCT-003",
+      "deviceName": "SS-OCT 深度成像仪 01",
+      "date": "2026-10-30",
+      "slot": "08:30-09:00",
+      "status": "待检查",
+      "createdAt": "2026-10-29"
+    },
+    {
+      "id": "R013",
+      "patientId": "P20260003",
+      "patientName": "罗梦洁",
+      "examType": "SD-OCT 眼底断层扫描",
+      "deviceId": "OCT-001",
+      "deviceName": "SD-OCT 眼部扫描仪 01",
+      "date": "2026-10-31",
+      "slot": "10:30-11:00",
+      "status": "待检查",
+      "createdAt": "2026-10-29"
+    },
+    {
+      "id": "R014",
+      "patientId": "P20260010",
+      "patientName": "吴文博",
+      "examType": "SS-OCT 深度成像检查",
+      "deviceId": "OCT-003",
+      "deviceName": "SS-OCT 深度成像仪 01",
+      "date": "2026-10-31",
+      "slot": "13:30-14:00",
+      "status": "待检查",
+      "createdAt": "2026-10-29"
+    },
+    {
+      "id": "R015",
+      "patientId": "P20260017",
+      "patientName": "黄敏",
+      "examType": "SS-OCT 深度成像检查",
+      "deviceId": "OCT-006",
+      "deviceName": "SS-OCT 深度成像仪 03",
+      "date": "2026-10-31",
+      "slot": "10:30-11:00",
+      "status": "待检查",
+      "createdAt": "2026-10-29"
+    },
+    {
+      "id": "R016",
+      "patientId": "P20260024",
+      "patientName": "胡雅琴",
+      "examType": "SS-OCT 深度成像检查",
+      "deviceId": "OCT-003",
+      "deviceName": "SS-OCT 深度成像仪 01",
+      "date": "2026-10-31",
+      "slot": "15:00-15:30",
+      "status": "待检查",
+      "createdAt": "2026-10-29"
+    },
+    {
+      "id": "R017",
+      "patientId": "P20260031",
+      "patientName": "孙淑芬",
+      "examType": "SD-OCT 眼底断层扫描",
+      "deviceId": "OCT-002",
+      "deviceName": "SD-OCT 眼部扫描仪 02",
+      "date": "2026-10-31",
+      "slot": "13:30-14:00",
+      "status": "待检查",
+      "createdAt": "2026-10-29"
+    }
+  ],
+  "reports": [],
+  "consumables": [
+    {
+      "id": "C001",
+      "name": "OCT 光学镜片清洁纸",
+      "spec": "无尘级 100 片/盒",
+      "unit": "盒",
+      "stock": 45,
+      "threshold": 10,
+      "supplier": "科医光电耗材"
+    },
+    {
+      "id": "C002",
+      "name": "超声耦合剂",
+      "spec": "250ml/瓶",
+      "unit": "瓶",
+      "stock": 12,
+      "threshold": 20,
+      "supplier": "华康医疗"
+    },
+    {
+      "id": "C003",
+      "name": "一次性检查眼罩",
+      "spec": "50 只/包",
+      "unit": "包",
+      "stock": 38,
+      "threshold": 50,
+      "supplier": "华康医疗"
+    },
+    {
+      "id": "C004",
+      "name": "热敏打印纸（报告用）",
+      "spec": "110mm×20m/卷",
+      "unit": "卷",
+      "stock": 60,
+      "threshold": 15,
+      "supplier": "鑫诚办公"
+    },
+    {
+      "id": "C005",
+      "name": "医用酒精棉片",
+      "spec": "100 片/盒",
+      "unit": "盒",
+      "stock": 85,
+      "threshold": 20,
+      "supplier": "华康医疗"
+    },
+    {
+      "id": "C006",
+      "name": "一次性无菌手套",
+      "spec": "100 只/盒",
+      "unit": "盒",
+      "stock": 26,
+      "threshold": 30,
+      "supplier": "华康医疗"
+    },
+    {
+      "id": "C007",
+      "name": "复方托吡卡胺散瞳滴眼液",
+      "spec": "5ml/瓶",
+      "unit": "瓶",
+      "stock": 70,
+      "threshold": 25,
+      "supplier": "康明制药"
+    },
+    {
+      "id": "C008",
+      "name": "盐酸丙美卡因表麻滴眼液",
+      "spec": "5ml/瓶",
+      "unit": "瓶",
+      "stock": 33,
+      "threshold": 25,
+      "supplier": "康明制药"
+    },
+    {
+      "id": "C009",
+      "name": "荧光素钠造影剂",
+      "spec": "0.5g/支",
+      "unit": "支",
+      "stock": 8,
+      "threshold": 10,
+      "supplier": "康明制药"
+    },
+    {
+      "id": "C010",
+      "name": "OCT 设备专用保险丝",
+      "spec": "T2A 250V",
+      "unit": "个",
+      "stock": 12,
+      "threshold": 5,
+      "supplier": "科医光电耗材"
+    },
+    {
+      "id": "C011",
+      "name": "下颌托架纸垫",
+      "spec": "200 张/包",
+      "unit": "包",
+      "stock": 120,
+      "threshold": 40,
+      "supplier": "鑫诚办公"
+    },
+    {
+      "id": "C012",
+      "name": "空气净化滤芯",
+      "spec": "HEPA H13",
+      "unit": "个",
+      "stock": 9,
+      "threshold": 6,
+      "supplier": "科医光电耗材"
+    },
+    {
+      "id": "C013",
+      "name": "眼位固定胶带",
+      "spec": "5cm×5m/卷",
+      "unit": "卷",
+      "stock": 40,
+      "threshold": 15,
+      "supplier": "鑫诚办公"
+    },
+    {
+      "id": "C014",
+      "name": "设备防尘罩",
+      "spec": "通用型 90×70cm",
+      "unit": "个",
+      "stock": 14,
+      "threshold": 8,
+      "supplier": "科医光电耗材"
+    }
+  ],
+  "stockLogs": []
+}
